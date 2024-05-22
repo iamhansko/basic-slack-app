@@ -67,7 +67,7 @@ jobs:
         with:
           repository: ${{ env.config_repo }}
           ref: main  
-          token: ${{ secrets.ACTION_TOKEN }}
+          # token: ${{ secrets.ACTION_TOKEN }}
           path: ${{ env.config_repo_path }}
 
       - name: Update Kubernetes resources
