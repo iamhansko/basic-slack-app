@@ -7,7 +7,7 @@ env:
   dockerimage_tag: ${{ github.sha }}
   dockerimage_name: sce06147/slack-app
   config_repo: iamhansko/basic-slack-app-config
-  config_repo_path: slack-app-config
+  config_repo_path: basic-slack-app-config
   mode: dev
 
 jobs:
