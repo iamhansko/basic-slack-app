@@ -38,7 +38,7 @@ spec:
         imagePullPolicy: Always
         name: slack-app
         ports:
-        - containerPort: 80
+        - containerPort: 9000
         envFrom:
         - configMapRef:
             name: slack-config

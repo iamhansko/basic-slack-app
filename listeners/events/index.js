@@ -17,7 +17,7 @@ module.exports.register = (app) => {
           },
         },
       ],
-      thread_ts: event.event_ts,
+      // thread_ts: event.event_ts,
     });
   });
 };
